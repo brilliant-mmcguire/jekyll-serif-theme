@@ -219,6 +219,7 @@ models:
         options:
           - label: home
             value: home
+            
   basicpage:
     type: page
     label: Basic Page
@@ -249,6 +250,7 @@ models:
             value: footer
       - type: string
         name: bodyClass
+        
    basicpage:
     type: page
     label: Basic Page
@@ -279,6 +281,7 @@ models:
             value: footer
       - type: string
         name: bodyClass
+        
   service:
     type: page
     label: Service
@@ -299,6 +302,7 @@ models:
         options:
           - label: service
             value: service
+            
   services:
     type: page
     label: Services Overview
