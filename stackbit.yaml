@@ -249,6 +249,36 @@ models:
             value: footer
       - type: string
         name: bodyClass
+   basicpage:
+    type: page
+    label: Basic Page
+    match: '*.md'
+    exclude: index.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page.
+      - type: date
+        name: date
+        label: Date
+      - type: enum
+        name: layout
+        options:
+          - label: page
+            value: page
+          - label: doers
+            value: doers
+      - type: enum
+        name: menu
+        label: Menu
+        options:
+          - label: Main Menu
+            value: main
+          - label: Footer Menu
+            value: footer
+      - type: string
+        name: bodyClass
   service:
     type: page
     label: Service
